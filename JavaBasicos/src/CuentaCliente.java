@@ -15,7 +15,8 @@ public class CuentaCliente {
 			Scanner cuentacliente = new Scanner (System.in);
 			int cuenta = cuentacliente.nextInt();
 			
-			if (cuenta <= 1000){
+			if (cuenta <= 999){
+				// <1000
 				
 				
 				
@@ -23,7 +24,7 @@ public class CuentaCliente {
 			
 				
 				
-			}else if(cuenta >= 1001 && cuenta <= 4999  ){
+			}else if(cuenta >= 1000 && cuenta <= 4999  ){
 				double cuentadiez = cuenta * 0.90;
 				
 				System.out.println (cuenta + "=  Tu descuento es del 10% = " + "descuento total =  " +  cuentadiez );
